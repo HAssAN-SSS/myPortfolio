@@ -1,0 +1,95 @@
+:root{
+    --primary:#C8E4B2;
+    --secondary:#B9DBEC;
+    --black_100:#3C4A51;
+    --blanco:#F2F5F7;
+    --black_75:#3C4A51BF;
+    --black_50:#3C4A5180;
+    --black_25:#3C4A5140;
+    --black_15:#3C4A5126;
+    --title_font_family:'Alumni Sans Inline One', cursive;
+    --h1_font_family:'Chakra Petch', sans-serif;
+    --p_font_family:'Varela Round', sans-serif;
+    --fusion:linear-gradient(to right, #C8E4B2,#B9DBEC );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: green; */
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: var(--blanco);
+}
+h1{
+    font-family: var(--h1_font_family);
+    font-size: 39.06px;
+    color: var(--black_100);
+}
+h2{
+    font-family: var(--h1_font_family);
+    font-size:31.25px;
+    color: var(--black_100);
+}
+h3{
+    font-family: var(--h1_font_family);
+    font-size:25px ;
+    color: var(--black_100);
+}
+h4{
+    font-family: var(--h1_font_family);
+    font-size:20px;
+    color: var(--black_100);
+}
+h5{
+    font-family: var(--h1_font_family);
+    font-size:14 px ;
+    color: var(--black_100);
+}
+p{
+    font-family: var(--p_font_family);
+    font-size: 32px;
+    color: var(--black_100);
+}
+.btn{
+    color: var(--black_100);
+    background-color: var(--blanco);
+    border-radius: 16px;
+    border: solid 8px var(--black_100);
+    width: 264px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+.btn:hover{
+    background: var(--fusion);
+    cursor: pointer;
+}
+.btn:active, .btn:active h2{
+    background: var(--black_100);
+    border:solid 8px var(--blanco);
+    color: var(--blanco);
+}
+
+ 
+
+
+@media screen and (max-width: 1300px) {
+    .welcome_laptop {
+        color: red;
+        transform: scale(0.8);
+        /* background-color: #C8E4B2; */
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 6%;
+        /* transform-origin: 0  0; */
+    }
+  }
+  
+
+  
+  
