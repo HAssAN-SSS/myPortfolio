@@ -66,7 +66,7 @@ main{
     display: flex;
     align-items: center;
     border-radius: 16px;
-    border: solid 8px var(--black_100);
+    border: solid 4px var(--black_100);
     padding: 4px;
     background: var(--fusion);
     margin: 2% 0%;
@@ -75,4 +75,157 @@ main{
     margin-left: 2%;
     overflow-y: hidden;
     font-size: 24PX;
+}
+
+.welcome_phone_side_button{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+}
+.phone_actions{
+    width: 100%;
+    height: 17%;
+    /* background-color: aqua; */
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------------------------------------phone phone pohone------------------------------- */
+
+@media screen and (max-width: 800px) {
+    
+
+    #app{
+        width: 100%;
+        /* background-color: blueviolet; */
+        margin: 0;
+    }
+    
+    .welcome_laptop{
+        /* transform: scale(0.8); */
+        width: 98%;
+        height: 100%;
+        /* margin: 0; */
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 2vw; */
+        /* background-color: beige; */
+        /* padding-left: 4vw; */
+        align-items: center;
+        /* margin-top: 3%; */
+        /* justify-content: space-around; */
+
+        
+    }
+    #title_square{
+        background-color: var(--blanco);
+        font-family: var(--title_font_family);
+        width: 332px;
+        height: 200px;
+        /* margin-left: 80px; */
+        /* margin-right: 80px; */
+        /* margin-top: 48px; */
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 4%;
+        
+    }
+    h1.title{
+        font-size:88px;
+        font-family: var(--title_font_family);
+        /* color: aquamarine; */
+        color: var(--black_100);
+        font-weight: 400;
+        text-align: start;
+        margin-left: 6%;
+    }
+    .welcome_text{
+        display: flex;
+        width: 88%;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        background-color: var(--blanco);
+        margin-left: 3%;
+        /* height: 348px; */
+        
+    }
+    .addetional_para{
+        display: none;
+    }
+    main{
+        /* margin-left: 80px; */
+        display: flex;
+        height: 405px;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        
+    
+    }
+    .welcome_side_button{
+        display: none;
+        /* flex-direction: column; */
+        width: 100%;
+        /* margin-left: 56px;
+        margin-top: 32px; */
+        background-color: aqua;
+        margin: 0;
+    
+    }
+
+    .welcome_phone_side_button{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .news_bar{
+        width: 99%;
+        height: 104px;
+        background-color: rgb(127, 142, 255);
+        /* margin-left: 80px; */
+        /* margin-bottom: 96px; */
+        display: none;
+        align-items: center;
+        border-radius: 16px;
+        border: solid 4px var(--black_100);
+        padding: 4px;
+        background: var(--fusion);
+        margin: 2% 0%;
+        overflow: hidden;
+    }
+    .news_bar_text{
+        margin-left: 2%;
+        overflow-y: hidden;
+        font-size: 24PX;
+    }
+    .phone_actions{
+        width: 100%;
+        height: 17%;
+        /* background-color: aqua; */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone_actions .btn{
+        width: 85%;
+        background: var(--fusion);
+
+
+  }
+  .contacts_icons{
+    width: 80%;
+    display:flex;
+    justify-content: space-around;
+    color: var(--black_100);
+  }
 }

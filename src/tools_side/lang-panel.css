@@ -1,0 +1,20 @@
+.lang-panel{
+    width: 56px;
+    height: 48px;
+    background:var(--fusion);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 16px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    user-select: none;
+}
+.lang-panel p{
+    font-size: 24px;
+    /* color: var(--black_75); */
+
+}
