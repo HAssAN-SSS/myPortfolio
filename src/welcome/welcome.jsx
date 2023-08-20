@@ -1,7 +1,12 @@
 import "./welcome.css";
 import Buttons from "../tools_side/lang-panel";
+import { Link } from "react-router-dom";
+import App_controle_UpPanel from "../tools_side/app_controle_UpPanel";
 
-export default function welcome() {
+export default function welcome({props}) {
+  function go_to_lp_dashbord() {
+    history.push("/lp/dashbord");
+  }
   return (
     <div className="welcome_laptop">
       <div id="title_square">
@@ -76,7 +81,7 @@ export default function welcome() {
             <h2>share</h2>
           </button>
 
-          <button className="btn">
+          <Link to={'/'} className="btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -89,16 +94,16 @@ export default function welcome() {
               <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z" />
             </svg>
             <h2>CV</h2>
-          </button>
+          </Link>
         </div>
       </main>
 
       {/* news bar ----------------------------- */}
 
       <div className="news_bar">
-        <button className="btn">
+        <Link to={'/lp/dashbord'} className="btn" >
           <h2>START</h2>
-        </button>
+        </Link>
 
         <p className="news_bar_text">
           Communication: Bridging code and understanding. Communication:
@@ -110,9 +115,9 @@ export default function welcome() {
       {/* -------------------------------------------phone actions---------------------------- */}
 
       <div className="phone_actions">
-        <button className="btn">
+        <Link to={'ph/dashbord'} className="btn">
           <h1>START</h1>
-        </button>
+        </Link>
         <p>Contact me:</p>
         <div className="contacts_icons">
           <svg
@@ -161,6 +166,8 @@ export default function welcome() {
           </svg>
         </div>
       </div>
+      <App_controle_UpPanel />
+
     </div>
   );
 }

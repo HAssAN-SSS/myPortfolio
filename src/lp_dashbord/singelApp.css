@@ -1,0 +1,19 @@
+#singelApp{
+    width:104px;
+    height: 104px;
+    border: solid 4px var(--black_100);
+    border-radius: 8px;
+    margin: 8px 0px 0px 8px;
+    color: var(--black_100);
+    text-align: center;
+    background: var(--fusion);
+    cursor: pointer;
+}
+#singelApp img{
+    /* width: 40px; */
+    /* height: 32px; */
+    margin-top: 16%;
+} 
+#singelApp:hover{
+background: var(--blanco);
+}

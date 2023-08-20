@@ -1,0 +1,33 @@
+#lp_dashbord{
+    /* background-color: aquamarine; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#lesApps{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    align-content: flex-start;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    
+
+
+}
+#lp_dashbord #show_tv{
+    
+    border-radius: 8px;
+    z-index: -1;
+    position: absolute;
+    right: 1%;
+    margin: 0;
+    width: 40%;
+    height: 60%;
+    top: 15%;
+    background: var(--fusion);
+}
