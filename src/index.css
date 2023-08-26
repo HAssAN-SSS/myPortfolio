@@ -101,6 +101,7 @@ p{
         --h1_font_family:'Chakra Petch', sans-serif;
         --p_font_family:'Varela Round', sans-serif;
         --fusion:linear-gradient(2deg, rgba(94, 195, 15, 0.05) 60%, rgba(38, 151, 207, 0.15) 60%);
+        --fusion_1:linear-gradient(82deg, rgba(94, 195, 15, 0.15) 0%, rgba(38, 151, 207, 0.15) 100%);
 
         display: flex;
         flex-direction: column;

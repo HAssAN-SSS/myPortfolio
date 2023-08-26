@@ -1,0 +1,79 @@
+.inPage{
+    width: 800px;
+    height: 528px;
+    min-width: 400px;
+    min-height: 216px;
+    /* background-color: aqua; */
+    z-index: 2;
+    position: absolute;
+    top: 32px;
+    left:304px;
+    border-radius: 8px;
+    background: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: solid 4px var(--black_100);
+
+}
+.full_size{
+    width: 98%;
+    height: 98%;
+    position: absolute;
+    top: 0.5%;
+    left:0.5%;
+    
+}
+.minimal{
+    display: none;
+}
+.inPge_header{
+    background: var(--fusion);
+    width: 99%;
+    height: 40px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+
+
+
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.file_root_bar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    max-width: 70%;
+    height: 32px;
+    background: var(--black_100);
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 3%;
+
+}
+.file_root_bar p{
+    color: var(--blanco);
+    font-size: 16px;
+}
+.inpage_controles{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 120PX;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    color: var(--black_100);
+}
+.scale_up{
+    cursor: pointer;
+}
+.scale_down{
+    cursor: pointer;
+}
