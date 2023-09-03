@@ -13,6 +13,7 @@ import "./App.css";
 import Lp_dashbord from "./lp_dashbord/lp_dashbord";
 import Ph_dashbord from "./ph_dashbord/ph_dashbord";
 import InPage from "./lp_dashbord/inPge";
+import Phone_projects from "./ph_dashbord/phone_projects";
 
 function App() {
   let [dark, setDark] = useState(false);
@@ -40,6 +41,7 @@ function App() {
             <Route path="/lp/dashbord/:page" element={<InPage />} />
           </Route>
           <Route path="/ph/dashbord" element={<Ph_dashbord />} />
+          <Route path="/ph/dashbord/projects" element={<Phone_projects />} />
         </Routes>
       </BrowserRouter>
     </div>

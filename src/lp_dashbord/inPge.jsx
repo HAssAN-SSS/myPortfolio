@@ -37,7 +37,7 @@ export default function InPage(props) {
         </div>
 
         <div className="file_root_bar">
-          <p>home/{props.text}</p>
+          <p>C:\home\{props.text}</p>
         </div>
 
         <div className="inpage_controles">

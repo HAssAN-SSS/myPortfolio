@@ -23,15 +23,20 @@
 #four_apps {
   display: flex;
   flex-flow: wrap;
-  align-content: space-between;
-  align-items: center;
-  justify-content: center;
+  /* align-content: space-between; */
+  /* align-items: center; */
+  justify-content: space-around;
+  box-sizing: border-box;
   margin: 0 0 32px 0;
+  width: 94%;
+  /* background-color: aqua; */
+  padding-left: 9%;
+  padding-right:9%;
 }
 #four_apps #singelApp {
   background: var(--black_100);
   box-shadow: 0px 4px 10px black;
-  margin: 5%;
+  margin: 7px;
   border-radius: 16px;
   border: 4px solid var(--black-100, #3c4a51);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -39,6 +44,7 @@
 }
 #four_apps #singelApp h5 {
   color: var(--blanco);
+  text-decoration: none;
 }
 #show_tv {
   width: 90%;

@@ -14,3 +14,6 @@ export let data = [
     { img: "/img/setting.png", text: "Setting" ,minimal: true ,open:false ,close:false,big_small:null, pos_z:1,top:null ,left:null},
     { img: "/img/power-on.png", text: "OFF" ,minimal: true  ,open:false ,close:false,big_small:null, pos_z:1,top:null ,left:null},
 ]
+
+
+

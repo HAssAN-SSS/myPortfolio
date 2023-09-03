@@ -36,20 +36,31 @@ export default function Ph_dashbord() {
       </header>
       <div id="show_tv"></div>
       <div id="four_apps">
+        <Link>
       <SingelApp
           img="/img/skills.png"
           alt="tme"
           text="Soft-Skills"
-          width="32px"
-        />
+          width_icon="32px"
+          />
+        </Link>
+
+        <Link>
         <SingelApp
           img="/img/infrastructure.png"
           alt="tme"
           text="Hard-Skills"
-          width="32px"
-        />
-        <SingelApp img="/img/planning.png" alt="tme" text="Projects" width="32px" />
-        <SingelApp img="/img/man.png" alt="tme" text="About Me" width="32px" />
+          width_icon="32px"
+          />
+          </Link>
+
+          <Link to={'/ph/dashbord/projects'}>
+        <SingelApp img="/img/planning.png" alt="tme" text="Projects" width_icon="32px" />
+          </Link>
+
+          <Link >
+        <SingelApp img="/img/man.png" alt="tme" text="About Me" width_icon="32px" />
+          </Link>
 
       </div>
       <Link className="btn">

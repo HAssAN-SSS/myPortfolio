@@ -205,10 +205,11 @@ export default function Lp_dashbord() {
   return (
     <div id="lp_dashbord">
       <div>
+        {inPages_list}
 
-      {inPages_list[inPages_list.length - 2]}
+      {/* {inPages_list[inPages_list.length - 2]} */}
       </div>
-      {inPages_list[inPages_list.length - 1]}
+      {/* {inPages_list[inPages_list.length - 1]} */}
       <div id="lesApps">{cpn_desktopApps}</div>
       <Bara_activity
         minimal_app={minimal_app}
