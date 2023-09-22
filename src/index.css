@@ -142,7 +142,7 @@ p{
     }
     p{
         font-family: var(--p_font_family);
-        font-size: 18px;
+        font-size: 10px;
         color: var(--black_100);
     }
     .btn{

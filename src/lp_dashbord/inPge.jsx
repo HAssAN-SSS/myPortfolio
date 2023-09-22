@@ -1,7 +1,15 @@
 import "./inPage.css";
 import { useEffect } from "react";
 import { useState } from "react";
-import { useParams } from "react-router";
+import { Outlet, useParams } from "react-router";
+import Convoi_lourd from "../content/Convoi_lourd";
+import Chati_chati from "../content/chati_chati";
+import Game from "../content/game";
+import Biblio_app from "../content/biblio-app";
+import Hard_skills from "../content/hard_skills";
+import Soft_skills from "../content/soft_skills";
+import Cv from "../content/cv";
+import About_me from "../content/aboutme";
 
 export default function InPage(props) {
   let [show_medel_icon, setShowMedelIcon] = useState(false);
@@ -19,6 +27,57 @@ export default function InPage(props) {
     props.setRender((old) => !old);
   }
 
+  //! this function is for git each inpage it spesifec content, it git it content from data.js file, each inpage has it own structure.
+
+  function add_content() {
+    switch (props.text) {
+      case "Convoi lourd":
+        return (
+          <Convoi_lourd />
+        )
+      break
+      case 'chat-app':
+        return (
+          <Chati_chati />
+        )
+          break
+      case 'Game':
+        return (
+          <Game />
+        )
+        break
+      case 'Biblio-App':
+        return (
+          <Biblio_app />
+        )
+        break
+      case 'Hard-Skills':
+        return (
+          <Hard_skills />
+        )
+        break
+      case 'Soft-Skills':
+        return (
+          <Soft_skills />
+        )
+        break
+      case 'CV':
+        return (
+          <Cv />
+        )
+        break
+      case 'About Me':
+        return (
+          <About_me />
+        )
+        break
+    }
+  }
+
+
+
+  // !--------------------------------------------------------------------------------------------------------------------------
+
   return (
     <div
       className={`inPage ${show_medel_icon ? "full_size" : ""} ${
@@ -26,9 +85,12 @@ export default function InPage(props) {
       }`}
       style={{
         display: props.text && !props.minimal ? "block" : "none",
-        top: !show_medel_icon ? `${props.top + Math.floor(Math.random() * 20)}px` : null,
-        left: !show_medel_icon ? `${props.left + Math.floor(Math.random() * 30)}px` : null,
-
+        top: !show_medel_icon
+          ? `${props.top + Math.floor(Math.random() * 20)}px`
+          : null,
+        left: !show_medel_icon
+          ? `${props.left + Math.floor(Math.random() * 30)}px`
+          : null,
       }}
     >
       <div className="inPge_header">
@@ -99,6 +161,14 @@ export default function InPage(props) {
           </svg>
         </div>
       </div>
+      {/*------------------------------------------- HER WE PUT THE CONTENT FOR EACHE INPAGE ------------------------------------------- */}
+
+      <div className="content">
+        {add_content()}
+
+      </div>
+
+      {/*------------------------------------------- HER WE PUT THE CONTENT FOR EACHE INPAGE ------------------------------------------- */}
     </div>
   );
 }
