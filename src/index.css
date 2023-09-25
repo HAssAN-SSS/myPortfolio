@@ -111,12 +111,7 @@ p{
         /* background-color: green; */
         margin: 0;
         padding: 0;
-        background:  linear-gradient(
-            82deg,
-            rgba(94, 195, 15, 0.15) 0%,
-            rgba(38, 151, 207, 0.15) 100%
-          
-        );
+   
     }
     body{
         background: var(--blanco);
@@ -156,7 +151,7 @@ p{
         background-color: var(--blanco);
         border-radius: 16px;
         border: solid 4px var(--black_100);
-        width: 168px;
+        width: 152px;
         height: 64px;
         display: flex;
         align-items: center;
