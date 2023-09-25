@@ -134,7 +134,7 @@ main{
         /* background-color: aqua; */
         margin: 0;
         margin-top: 10%;
-        margin-bottom: 4%;
+        margin-bottom: 0%;
         
     }
     h1.title{
@@ -163,7 +163,7 @@ main{
     main{
         /* margin-left: 80px; */
         display: flex;
-        height: 405px;
+        height: 375px;
         flex-direction: column-reverse;
         width: 100%;
         align-items: center;
@@ -222,10 +222,10 @@ main{
 
 
   }
-  .contacts_icons{
+  /* .contacts_icons{
     width: 80%;
     display:flex;
     justify-content: space-around;
     color: var(--black_100);
-  }
+  } */
 }
