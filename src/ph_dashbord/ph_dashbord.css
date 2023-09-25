@@ -8,7 +8,7 @@
   width: 100%;
   margin: 0;
 }
-#ph_dashbord .btn{
+#ph_dashbord {
   border-radius: 16px;
   border: 4px solid var(--black-100, #3c4a51);
   background: 
@@ -53,7 +53,8 @@
     82deg,
     rgba(94, 195, 15, 0.15) 0%,
     rgba(38, 151, 207, 0.15) 100%
-  );  margin: 5%;
+  );  
+  margin: 4%;
   border-radius: 8px;
 }
 header {
@@ -63,6 +64,7 @@ header {
   color: var(--black_100);
   display: flex;
   justify-content: space-between;
+  margin-top: 5%;
 }
 
 #return_btn {
@@ -96,4 +98,13 @@ header {
 #phone_bar p {
   font-size: 14px;
   margin-left: 3%;
+}
+.contactMe{
+  margin-bottom: 5%;
+}
+.temporary_text{
+  font-size: 32px;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(165, 165, 54);
 }

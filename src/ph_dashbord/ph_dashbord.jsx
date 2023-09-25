@@ -24,17 +24,18 @@ export default function Ph_dashbord() {
 
         <div id="phone_bar">
             <p>
-                This is Hassan!
-                This is Hassan! 
-                This is Hassan! 
-                This is Hassan! 
-                This is Hassan! 
-
+             
 
             </p>
         </div>
       </header>
-      <div id="show_tv"></div>
+
+
+      <div id="show_tv">
+      <p className="temporary_text">Mobile feature in progress! For now, enjoy the desktop version. 👨‍💻📱</p>
+      </div>
+
+
       <div id="four_apps">
         <Link>
       <SingelApp
@@ -63,7 +64,7 @@ export default function Ph_dashbord() {
           </Link>
 
       </div>
-      <Link className="btn">
+      <Link className="btn contactMe">
         <h3>Contact Me</h3>
       </Link>
     </div>
