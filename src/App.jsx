@@ -7,6 +7,7 @@ import {
   Routes,
   useParams,
   useLocation,
+  MemoryRouter
 } from "react-router-dom";
 
 import "./App.css";
@@ -34,7 +35,7 @@ function App() {
   // alert(window.location.pathname)
   return (
     <div id="app">
-      <BrowserRouter>
+      <MemoryRouter initialEntries={["/"]}>
         <Routes>
           <Route path="/" element={<Welcome setDark={setDark} />} />
           <Route path="/lp/dashbord" element={<Lp_dashbord />} >
@@ -42,10 +43,9 @@ function App() {
           </Route>
           <Route path="/ph/dashbord" element={<Ph_dashbord />} />
           <Route path="/ph/dashbord/projects" element={<Phone_projects />} />
-          <Route path="/*" element={<Welcome setDark={setDark} />} />
 
         </Routes>
-      </BrowserRouter>
+      </MemoryRouter>
     </div>
   );
 }

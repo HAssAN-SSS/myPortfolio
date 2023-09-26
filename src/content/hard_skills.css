@@ -1,36 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+.skills{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
 }
-
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-    text-align: center;
-}
-
-.skills {
-    list-style-type: none;
-    padding: 0;
-}
-
-.skills li {
-    margin-bottom: 10px;
-}
-
-.skills li span {
-    font-weight: bold;
-}
-
-/* Emojis */
-.emoji {
-    font-size: 24px;
-    margin-right: 10px;
+skills h4{
+    grid-column: 2 3;
 }

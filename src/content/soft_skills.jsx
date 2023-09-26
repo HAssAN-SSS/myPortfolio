@@ -2,7 +2,6 @@ import './soft_skills.css'
 export default function Soft_skills() {
   return (
     <div>
-      <div class="container">
         <div class="bg">
           <h1>My Soft Skills</h1>
         </div>
@@ -46,7 +45,6 @@ export default function Soft_skills() {
               learning and adjusting to evolving circumstances.
             </p>
           </div>
-      </div>
     </div>
   );
 }

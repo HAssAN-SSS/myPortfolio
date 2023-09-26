@@ -3,68 +3,67 @@ import "./hard_skills.css";
 export default function Hard_skills() {
   return (
     <div>
-      <div class="container">
         <h1>My Hard Skills</h1>
-        <ul class="skills">
-          <li>
+        <div class="skills">
+          <h4>
             <span class="emoji">💻</span> Full Stack Development
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🚀</span> Node.js
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🌐</span> JavaScript (JS)
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">⚛️</span> React
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🐍</span> Python
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🌐</span> HTML
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🎨</span> CSS
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🗃️</span> SQL
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">📦</span> Docker
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🐙</span> Git
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🌐</span> GitHub
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🌐</span> Laravel
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">📊</span> MySQL
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🍃</span> MongoDB
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🅒</span> C Programming
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">📜</span> Bash Scripting
-          </li>
-          <li>
-            <span class="emoji">🐧</span> Linux
-          </li>
-          <li>
+          </h4>
+          <h4>
+            <span class="emoji">🐧</span> h4nux
+          </h4>
+          <h4>
             <span class="emoji">🌐</span> UML
-          </li>
-          <li>
+          </h4>
+          <h4>
             <span class="emoji">🌐</span> WebSockets
-          </li>
-        </ul>
-        <h5>
+          </h4>
+        </div>
+        <h4>
           I'm on a relentless journey to become one of the top 10% of developers
           worldwide. My passion for continuous learning fuels my skill
           enhancement in various technologies, from web development to
@@ -72,8 +71,7 @@ export default function Hard_skills() {
           redefine industry standards. With unwavering dedication, I aim to set
           new benchmarks in the ever-evolving world of software development. My
           commitment is to innovation, excellence, and continuous growth.
-        </h5>
-      </div>
+        </h4>
     </div>
   );
 }
