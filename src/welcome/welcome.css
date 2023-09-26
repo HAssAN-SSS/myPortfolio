@@ -8,7 +8,8 @@
     /* background-color: beige; */
     /* padding-left: 4vw; */
     align-items: center;
-    margin-top: 3%;
+    margin-top: 0%;
+    /* background-color: aqua; */
     
 }
 #title_square{
@@ -35,11 +36,11 @@ h1.title{
 }
 .welcome_text{
     display: flex;
-    width: 72%;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     background-color: var(--blanco);
+    width: 72%;
     
 }
 main{
@@ -92,6 +93,16 @@ main{
     align-items: center;
 }
 
+#startBtn{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background: var(--fusion);
+    border:  transparent;
+    box-shadow: 0px 1px 10px var(--black_100);
+}
 /* --------------------------------------phone phone pohone------------------------------- */
 
 @media screen and (max-width: 800px) {
