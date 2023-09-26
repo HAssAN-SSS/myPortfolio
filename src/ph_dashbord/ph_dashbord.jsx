@@ -32,7 +32,7 @@ export default function Ph_dashbord() {
 
 
       <div id="show_tv">
-      <p className="temporary_text">Mobile feature in progress! For now, enjoy the desktop version. 👨‍💻📱</p>
+      <p className="temporary_text">I'm still working on the phone version. Stay tuned! 📱✨</p>
       </div>
 
 
